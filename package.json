@@ -1,0 +1,30 @@
+{
+  "name": "get-vendors",
+  "version": "1.0.0",
+  "description": "Tiny node script to get an array of dependency key names from package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eventum-it/get-vendors.git"
+  },
+  "keywords": [
+    "node",
+    "webpack"
+  ],
+  "author": "Ahmed Ghoneim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eventum-it/get-vendors/issues"
+  },
+  "homepage": "https://github.com/eventum-it/get-vendors#readme",
+  "dependencies": {
+    "ramda": "^0.22.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-eventum": "^1.0.0"
+  }
+}
